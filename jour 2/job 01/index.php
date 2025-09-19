@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+<?php 
+    for ($i=0;  $i<1338; $i++ ){
+        if ($i == 42){
+            echo "<br><u>" . $i . "</u><br>";
+        } else {
+            echo "<br>". $i . "<br>";
+        }
+    };
+?>
 </body>
 </html>
