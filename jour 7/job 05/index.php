@@ -22,3 +22,5 @@ function calcule($a, $operation, $b) {
             return "Erreur : Opération non supportée";
     }
 }
+
+echo calcule(5,"-",6);
