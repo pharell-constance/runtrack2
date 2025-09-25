@@ -12,4 +12,6 @@ if (!isset($_SESSION['nbvisites'])) {
 } else {
     $_SESSION['nbvisites']++;
 }
-?>
+
+
+echo $_SESSION['nbvisites'];

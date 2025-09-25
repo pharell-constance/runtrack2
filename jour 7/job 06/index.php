@@ -1,7 +1,5 @@
 <?php 
 
-
-
 function leetSpeak($str) {
     if ($str == "A" || $str == "a") {
         return "4";
