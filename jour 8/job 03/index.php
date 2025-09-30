@@ -10,4 +10,6 @@
         <input type="text">
         <input type="submit">
     </form>
+    <?php
+    >
 </html>
