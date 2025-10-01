@@ -33,4 +33,9 @@ $isConnected = isset($_COOKIE['prenom']) && !empty($_COOKIE['prenom']);
         </form>
     <?php else: ?>
         <form method="post">
-            <input type="text" name="prenom
+            <input type="text" name="prenom" placeholder="Entrez votre prénom" required>
+            <button type="submit" name="connexion">Connexion</button>
+        </form>
+    <?php endif; ?>
+</body>
+</html>
