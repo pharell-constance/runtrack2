@@ -64,6 +64,7 @@ $nombreNonVides = compterArgumentsGET();
             echo '<p><strong>Le nombre d\'arguments GET non vides est : ' . $nombreNonVides . '</strong></p>';
 
             
+            
         }
         ?>
 </body>
