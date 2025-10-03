@@ -36,3 +36,35 @@
     
     <h2>Paramètres GET reçus</h2>
     
+    <?php
+
+    if (!empty($_GET)) {
+        echo '<table border="1">';
+        echo '<thead>';
+        echo '<tr>';
+        echo '<th>Argument</th>';
+        echo '<th>Valeur</th>';
+        echo '</tr>';
+        echo '</thead>';
+        echo '<tbody>';
+        
+
+        foreach ($_GET as $argument => $valeur) {
+
+            $argument_secure = htmlspecialchars($argument, ENT_QUOTES, 'UTF-8');
+            $valeur_secure = htmlspecialchars($valeur, ENT_QUOTES, 'UTF-8');
+            
+            echo '<tr>';
+            echo '<td>' . $argument_secure . '</td>';
+            echo '<td>' . $valeur_secure . '</td>';
+            echo '</tr>';
+        }
+        
+        echo '</tbody>';
+        echo '</table>';
+    } else {
+        echo '<p>erreur</p>';
+    }
+    ?>
+</body>
+</html>
