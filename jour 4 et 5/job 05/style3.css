@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+    font-family: Georgia, serif;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: lightgray;
+    border: 1px solid red;
+}
+
+h1 {
+    color: red;
+    text-align: right;
+    font-style: italic;
+}
+
+label {
+    color: darkred;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid red;
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+    color: red;
+    text-align: center;
+    border: 1px solid red;
+}
