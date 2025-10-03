@@ -39,6 +39,13 @@
     if (!empty($_POST)) {
         $nombre_arguments = count($_POST);
     }
+
+     echo "Le nombre d'argument POST envoyé est : " . $nombre_arguments;
+    } else {
+        echo "Aucun argument POST envoyé. Remplissez le formulaire ci-dessus.";
+    }
+    ?>
         ?>
+    
 </body>
 </html>
